@@ -1,0 +1,261 @@
+body{
+    padding:0px;
+    margin:0px;
+    background:url('/Danceimg.jpg');
+    color:azure;
+    height:2300px;
+    
+}
+
+.left{
+    /* border:2px solid rgb(13, 239, 13); */
+    display:inline-block;
+    position:absolute;
+    left:30px;
+    top:22px;
+    
+}
+.left img{
+    width:89px;
+    filter:invert(100%); /* Converts black image into white and vise versa*/
+    border-radius: 200px;
+}
+
+.left div{
+    text-align: center;
+    font-weight:bold;
+    font-size: 18px;
+    line-height: 4px;
+}
+
+.mid{
+    
+    /* border:2px solid red; */
+    display:block;
+    margin:18px auto;
+    width:553px;
+    background-color: black;
+    border-radius: 15px;
+    border:2px solid ghostwhite
+
+}
+
+.right{
+    /* border:2px solid blue; */
+    display:inline-block;
+    position:absolute;
+    right:12px;
+    top:18px;
+    
+
+}
+.btn{
+    margin:0 6px;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    padding: 10px 13px;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    font-size:21px ;
+    
+}
+
+.btn:hover{
+    background-color:rgba(158, 189, 78, 0.504);
+    font-style: oblique;
+}
+
+
+
+.navbar{
+    display:inline-block;
+
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+
+
+}
+
+.navbar li a{
+    color:white;
+    text-decoration:none;  /* To remobve underline in the text*/
+    padding:20px;
+
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color:red;
+    
+
+}
+
+.container{
+    border:4px solid white;
+    margin:164px 54px;
+    padding:30px 28px;
+    width:40%;
+    border-radius:12px;
+
+}
+
+.form-gp input{
+    text-align:center;
+    display:block;
+    width:350px;
+    padding: 6px;
+    border:3px solid black;
+    font-size:25px;
+    margin:4px auto;
+    border-radius:6px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display:block;
+    width:60%;
+    margin:8px auto;
+    padding:8px;
+    
+
+}
+
+.footer{
+    border:2px solid black;
+    margin:10px 0px;
+    background-color: black;
+    padding:52px 20px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    position:relative;
+    bottom: -53%;
+    
+}
+
+.foot{
+    /* border: 2px solid white; */
+    display:block;
+    margin:20px auto;
+    width:395px;
+
+}
+
+.footclass{
+    font-size: 16px;
+    
+}
+
+.footclass li{
+    display:inline-block; 
+    font-size: 25px;
+}
+
+.footclass li a {
+    color:white;
+    text-decoration:none;  
+    padding:8px;
+    margin:3px auto;
+}
+
+.footclass li a:hover, .footclass li a.active{
+    text-decoration: underline;
+    color:blue;
+    
+
+}
+
+.footclass h3{
+    text-align:center;
+    font-size:20px;
+    font-weight: bold;
+    
+}
+
+.add{
+    /* border:2px solid green; */
+    display:block;
+    position:absolute;
+    left:6px;
+    top:6px;
+    font-size: 16px;
+    
+}
+
+.cop{
+    /* border:2px solid red; */
+    background-color:rgb(62, 17, 17);
+    display:block;
+    width: 101.5%;
+    margin: 2px -21px;
+    margin-bottom: 0px;
+    padding: 10px 10px;;
+    text-align: center;  
+
+}
+.addbl{
+    display: block;
+    width: 190px;
+    margin: -22px auto;
+    padding: 1px 7px;
+    list-style: none; /*bullet in the list is removed*/
+}
+
+
+.yoga {
+    border: 4px solid rgb(31, 4, 17);
+    background-color:rgb(0 0 0 / 0%);
+    background:url('/yoga.jpg');
+    margin: -253px 207px;
+    padding: 46px;
+    width: 31%;
+    font-size: 20px;
+    opacity: 0.89;
+    
+}
+
+
+
+.dance{
+    border: 4px solid #6b2738;
+    background-color: rgb(0 0 0 / 0%);
+    background: url(/dancepic.jpg);
+    filter: contrast(-0.5);
+    color: rgb(136 136 136);
+    margin: 279px 354px;
+    padding: 41px;
+    width: 31%;
+    font-size: 20px;
+    opacity: 0.75;
+
+}
+    
+
+.gym{
+    border: 4px solid rgb(48 62 43);
+    background-color:rgb(0 0 0 / 0%);;
+    background:url('/gymnastics.jpg');
+    filter:drop-shadow(50%);
+    color:#9b7979;
+    margin: -257px 589px;
+    padding: 43px 36px;
+    width: 31%;
+    font-size: 20px;
+    opacity: 0.75;
+
+}
+
+.content{
+    margin: auto;
+    width: 1200px;
+}
+
+
+
+
