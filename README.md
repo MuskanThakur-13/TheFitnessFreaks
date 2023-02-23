@@ -5,7 +5,7 @@ to create an optimal and scalable website.
 
 HTML and CSS  are used as a Framework.
 
-https://silly-semolina-c7a0c1.netlify.app/
+https://fitness-freaks-site.netlify.app/
 
 In this website,it asks user to enter their details for the regitration like:-
 1. **Name** 
